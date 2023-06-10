@@ -1,0 +1,76 @@
+@media (min-width: 992px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+body {
+    background-color: #CCD5AE;
+}
+#tbody th, #tbody td {
+    font-weight: normal;
+}
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+#main {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: #E9EDC9;
+    padding: 20px;
+}
+#wrapper {
+    background-color: #CCD5AE;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+#click, #click ul {
+    list-style: none;   
+    padding: 0;
+    margin: 0;
+}
+#click li {
+    background-color: #4E937A;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+#click {
+    display: flex;
+    justify-content: right;
+    background-color: #BDD2A6;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#click li:hover, #cur {
+    background-color: #9899A6;
+    z-index: 1;
+}
+#click a {
+    text-decoration: none;
+    color: #FFF;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+}
+#click ul {
+    position: absolute;
+    display: none;
+}
+
+#click ul ul {
+    left: 150px;
+    top: 0px;
+}
+
+#click li:hover > ul{
+    display: block;
+}
