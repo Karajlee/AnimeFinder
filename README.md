@@ -1,0 +1,1 @@
+This is a website focused on anime users where they want to search up anime series or movies in real time based on certain keywords such as title, score, or status. Users can do other functions such as write reviews. In order to access these functions, users must sign in to an existing account or sign up a new account.
